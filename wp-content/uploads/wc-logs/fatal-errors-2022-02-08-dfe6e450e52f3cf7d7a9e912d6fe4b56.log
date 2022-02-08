@@ -1,0 +1,11 @@
+2022-02-08T08:16:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_plugins() in C:\xampp2\htdocs\ws_ok\wp-content\plugins\woo-xendit-virtual-accounts\libs\helpers\class-wc-xendit-site-data.php:42
+Stack trace:
+#0 C:\xampp2\htdocs\ws_ok\wp-content\plugins\woo-xendit-virtual-accounts\libs\helpers\class-wc-xendit-site-data.php(34): WC_Xendit_Site_Data::get_plugin_list()
+#1 C:\xampp2\htdocs\ws_ok\wp-content\plugins\woo-xendit-virtual-accounts\libs\cronjob\wc-cron-xendit-site-data.php(79): WC_Xendit_Site_Data::retrieve()
+#2 C:\xampp2\htdocs\ws_ok\wp-includes\class-wp-hook.php(307): WC_Cron_Xendit_Site_data->xendit_site_data_wp_exec()
+#3 C:\xampp2\htdocs\ws_ok\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp2\htdocs\ws_ok\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#5 C:\xampp2\htdocs\ws_ok\wp-cron.php(138): do_action_ref_array('xendit_site_dat...', Array)
+#6 {main}
+  thrown di C:\xampp2\htdocs\ws_ok\wp-content\plugins\woo-xendit-virtual-accounts\libs\helpers\class-wc-xendit-site-data.php pada baris 42
+
